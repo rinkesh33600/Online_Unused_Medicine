@@ -1,0 +1,108 @@
+* {
+    margin: 0;
+}
+
+.container img {
+    width: 100%;
+    height: 100vh;
+}
+
+.Donate-form {
+    border: 2px solid grey;
+    display: inline-block;
+    position: absolute;
+    top: 50px;
+    left: 200px;
+    color: white;
+    padding: 20px 33px;
+    border-radius: 20px;
+    font-family: 'Baloo Bhaina 2', cursive;
+
+}
+
+.Donate-form h1{
+    text-align: center;
+}
+
+.form-Details {
+    margin: 21px 100px;
+
+}
+
+input {
+    display: grid;
+    padding: 10px 30px;
+    border: 2px solid gray;
+    border-radius: 20px;
+    font-family: 'Baloo Bhaina 2', cursive;
+    font-size: 20px;
+    background-color: black;
+    color: grey;
+
+}
+
+textarea {
+    padding: 20px 12px;
+    border: 2px solid gray;
+    border-radius: 20px;
+    font-size: 20px;
+    background-color: black;
+    color: white;
+}
+
+div.form1 {
+    float: left;
+    width: 50%;
+}
+form select{
+    width: 90%;
+    border: 2px solid grey;
+    padding: 18px 30px;
+    background-color: black;
+    color: white;
+    border-radius: 20px;
+    font-size: 20px;
+
+}
+
+div.form2 {
+    float: left;
+    width: 50%;
+}
+
+#date {
+    padding: 0px 69px;
+}
+
+#submit {
+    width: 35%;
+    cursor: pointer;
+    display: inline-block;
+    float: left;
+    margin: 2x 3px;
+    color: skyblue;
+    transition: 0.5s;
+}
+
+#submit:hover{
+    box-shadow: 2px 2px 20px skyblue;
+}
+
+#reset {
+    width: 35%;
+    cursor: pointer;
+    display: inline-block;
+    float: left;
+    margin-left: 220px;
+    color: skyblue;
+    transition: 0.5s;
+
+}
+#reset:hover{
+    box-shadow: 2px 2px 20px skyblue;
+}
+
+::-webkit-calendar-picker-indicator {
+    filter: invert(1);
+}
+

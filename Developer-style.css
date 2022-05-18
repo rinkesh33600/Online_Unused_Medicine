@@ -1,0 +1,35 @@
+body{
+    background: url('images/Img-2.jpg');
+    font-family: 'Baloo Bhaina 2', cursive;
+    color: white;
+    margin: 5px 35px;
+}
+
+.welcome h2{
+    margin: 20px 520px;
+    border: 2px solid grey;
+    text-align: center;
+    padding: 20px 5px ;
+    border-radius: 15px;
+    font-family: 'Baloo Bhaijaan 2', cursive;
+
+    
+} 
+
+.Welcome p{
+    font-size: 25px;
+    word-spacing: 8px
+}
+
+.content{
+    font-size: 20px;
+    line-height: 40px;
+}
+
+.Developer{
+    color: tomato;
+    line-height: 30px;
+}
+.Developer span{
+    color: grey;
+}

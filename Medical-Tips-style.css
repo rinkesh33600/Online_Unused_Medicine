@@ -1,0 +1,89 @@
+div.text
+{
+text-align:left;
+margin: 15px;
+color:black;
+font-size:20px;
+word-spacing: 10px;
+font-family: 'Baloo Bhaina 2', cursive;
+ 
+
+}
+.image1
+{
+	height:40%;
+	width:40%;
+margin: 5px auto;
+	
+}
+
+.image
+{
+	height:30%;
+	width:30%;
+	margin-right:150px;
+	
+}
+
+h1.top{
+	text-align:center;
+margin: 10px 400px;
+padding: 8px;
+	border-radius: 15px;
+	border-width: 0px;
+    font-family: 'Baloo Bhaijaan 2', cursive;
+	 -webkit-animation: mymove 5s infinite;
+
+	
+
+}
+@keyframes mymove 
+	{
+    from 
+	{background-color: #77bd5c;}
+    to 
+	{background-color:#5787ac;}
+    }
+h3.sub{
+	margin-right:250px;
+	margin-left:440px;
+font-weight:bold;
+text-decoration:underline;
+color:rebeccapurple;
+}
+
+div.main
+{
+	display:flex;
+    flex-direction: column;
+	background-color:#ff9900;
+
+}
+
+.short1
+{
+	background-color:#B80000;
+	margin-left:0px;
+	
+	color:black;
+}
+#myBtn {
+    display: none; 
+    position: fixed; 
+    bottom: 20px; 
+    right: 30px; 
+    z-index: 99; 
+    border: none;
+    outline: none;
+    background-color: red;
+    color: white; 
+    cursor: pointer;
+    padding: 15px; 
+    border-radius: 10px;
+}
+body{
+	background-color: lightgrey;
+}
+#myBtn:hover {
+    background-color: #555; /* Add a dark-grey background on hover */
+}
